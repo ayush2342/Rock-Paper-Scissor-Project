@@ -1,0 +1,44 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-image: linear-gradient(to right, #ABEBF0 , #EAABD8);
+}
+
+.divbox
+{
+   width: 30%;
+   height: 20vh;
+   display: inline-block;
+}
+
+.first-Image
+{
+background-image: url('image1.png');
+background-size: contain;
+background-repeat: no-repeat;
+}
+
+.second-image
+{
+    background-image: url('image2.png');
+background-size: contain;
+background-repeat: no-repeat;
+}
+
+.Startgame
+{
+    width: 30%;
+    height: 10vh;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 50px;
+    left: 50px;
+    color: white;
+}
+.hidden
+{
+    display: none;
+}
