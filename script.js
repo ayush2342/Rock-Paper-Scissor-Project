@@ -4,7 +4,7 @@ var buttonClick=document.getElementById("startGame");
 var firstDiv=document.querySelector(".first-Image");
 var SecondDiv=document.querySelector(".second-image");
 var gameStart=document.querySelector(".Startgame");
-
+var Outerdiv=document.querySelector(".outerDiv");
 // Image1= Scissor
 // Image2=Rock
 // Image3=Paper
@@ -12,8 +12,7 @@ var gameStart=document.querySelector(".Startgame");
 
 function displayDivs()
 {
-    firstDiv.classList.remove('hidden');
-    SecondDiv.classList.remove('hidden');
+    Outerdiv.classList.remove('hidden');
     gameStart.classList.remove('hidden');
 
     var value1=Math.trunc(Math.random()*3)+1;

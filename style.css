@@ -4,11 +4,19 @@ body{
     background-image: linear-gradient(to right, #ABEBF0 , #EAABD8);
 }
 
-.divbox
+/* .divbox
 {
    width: 30%;
    height: 20vh;
    display: inline-block;
+} */
+
+.outerDiv
+{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: space-around;
 }
 
 .first-Image
@@ -16,6 +24,7 @@ body{
 background-image: url('image1.png');
 background-size: contain;
 background-repeat: no-repeat;
+width: 45%;
 }
 
 .second-image
@@ -23,6 +32,7 @@ background-repeat: no-repeat;
     background-image: url('image2.png');
 background-size: contain;
 background-repeat: no-repeat;
+width: 45%;
 }
 
 .Startgame
@@ -35,8 +45,15 @@ background-repeat: no-repeat;
     align-items: center;
     position: relative;
     top: 50px;
-    left: 50px;
+    left: 450px;
     color: white;
+}
+#startGame
+{
+    position: relative;
+    left: 580px;
+    height: 2em;
+    width: 10%;
 }
 .hidden
 {
