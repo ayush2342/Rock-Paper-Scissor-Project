@@ -29,37 +29,16 @@ function displayDivs()
     }
     else if(value1==1)
     {
-        if(value2==2)
-        {
-            gameStart.innerHTML="Player 2 Wins"
-        }
-        else
-        {
-            gameStart.innerHTML="Player 1 Wins"
-        }
+        value2==2?gameStart.innerHTML="Player 2 Wins":gameStart.innerHTML="Player 1 Wins";
         
     }
     else if(value1==2)
     {
-        if(value2==1)
-        {
-            gameStart.innerHTML="Player 1 Wins"
-        }
-        else
-        {
-            gameStart.innerHTML="Player 2 Wins"
-        }
+        value2==1?gameStart.innerHTML="Player 1 Wins":gameStart.innerHTML="Player 2 Wins";
     }
     else
     {
-        if(value2==1)
-        {
-            gameStart.innerHTML="Player 2 Wins"
-        }
-        else
-        {
-            gameStart.innerHTML="Player 1 Wins"
-        }
+        value2==1?gameStart.innerHTML="Player 2 Wins":gameStart.innerHTML="Player 1 Wins";
     }
 
 }
